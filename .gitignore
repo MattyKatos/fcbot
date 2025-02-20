@@ -137,3 +137,6 @@ dist
 
 # Database
 *.db
+
+# Config
+config.yaml
