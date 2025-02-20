@@ -11,6 +11,8 @@ db.serialize(() => {
     world TEXT,
     freecompany TEXT,
     FCID INTEGER,
+    DID TEXT,
+    ismaincharacter BOOLEAN,
     last_scanned TEXT
   )`, (err) => {
     if (err) {
